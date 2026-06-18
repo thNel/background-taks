@@ -1,0 +1,27 @@
+{
+  "name": "@background-tasks/core",
+  "version": "0.0.1",
+  "description": "Framework-agnostic durable background task runtime for browser applications.",
+  "license": "MIT",
+  "author": "thNel",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thNel/background-taks.git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/thNel/background-taks/issues"
+  },
+  "homepage": "https://github.com/thNel/background-taks/tree/master/packages/core#readme",
+  "keywords": [
+    "background-tasks",
+    "browser",
+    "indexeddb",
+    "polling",
+    "task-runner",
+    "typescript"
+  ],
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts"
+}
