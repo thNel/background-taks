@@ -2,9 +2,10 @@
 
 Framework-agnostic durable background task runtime for browser applications.
 
-This package will contain the core task model, registry, manager lifecycle,
-scheduler, execution loop, storage contracts, operation key utilities, events,
-and browser coordination primitives.
+This package contains the core task model, registry, manager lifecycle,
+scheduler, execution loop, storage contracts, events, and browser coordination
+primitives. Active tasks are isolated by owner and deduplicated atomically by
+task type and payload.
 
 ## Status
 

@@ -23,5 +23,8 @@
   ],
   "type": "commonjs",
   "main": "./src/index.js",
-  "types": "./src/index.d.ts"
+  "types": "./src/index.d.ts",
+  "devDependencies": {
+    "fake-indexeddb": "^6.2.5"
+  }
 }

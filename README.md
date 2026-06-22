@@ -20,7 +20,7 @@ This project is in early development. The first implementation target is
 - Memory storage for tests and demos.
 - Task registry, scheduler, runner, retry policies, and cleanup.
 - Multi-tab coordination with leader election.
-- Operation keys for local duplicate protection.
+- Atomic local duplicate protection by owner, task type, and payload.
 - Event stream for application UI, logs, and observability.
 - React adapter without built-in visual components.
 - Testing utilities and examples.
